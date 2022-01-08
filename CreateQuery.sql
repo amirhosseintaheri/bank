@@ -39,6 +39,8 @@ CREATE TABLE Account
   Bank_Code           VARCHAR(255)   NOT NULL,
 
   Branch_no      INT NOT NULL,
+  
+  inventory INT DEFAULT 0,
 
 PRIMARY KEY   (Acct_no),
 
